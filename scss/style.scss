@@ -1,0 +1,63 @@
+$color_1: black;
+$color_2: #FFFFFF;
+$color_3: #ffffff;
+$font-family_1: 'Teko', sans-serif;
+$font-family_2: 'Zilla Slab', serif;
+$font-family_3: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$background-color_1: rgba(0, 0, 0, 0.835);
+$background-color_2: greenyellow;
+$background-color_3: #000000;
+
+@import "./base/reset";
+@import "https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Zilla+Slab&display=swap";
+@import "./layout/header.scss";
+@import "./components/buttons.scss";
+@import "./layout/navBar.scss";
+@import "./layout/imagenes.scss";
+@import "./layout/";
+@import "./layout/mediaQ.scss";
+
+
+/*
+font-family: 'Teko',sans-serif;
+font-family: 'Zilla Slab',serif;
+*/
+
+body {
+    background-color: $background-color_1;
+}
+
+
+.carrito2 {
+    height: 24px;
+    width: 24px;
+}
+
+
+.descripcion {
+    width: 25%;
+    margin-left: 25%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+}
+
+.p-nosotros {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.p-contacto {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}

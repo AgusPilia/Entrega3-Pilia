@@ -1,0 +1,22 @@
+.imagenes1 {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+        p {
+            color: $color_2;
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}
+
+.img {
+    li {
+        img {
+            margin-top: 200px;
+            height: 300px;
+            width: 350px;
+        }
+    }
+}

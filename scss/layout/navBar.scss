@@ -1,0 +1,20 @@
+.navBar {
+    background-color: $background-color_2;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 80px;
+
+    li {
+        a {
+            text-decoration: none;
+            color: $color_1;
+            font-family: $font-family_2;
+            padding: 20px;
+        }
+    }
+}

@@ -1,0 +1,157 @@
+@import "https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Zilla+Slab&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1 a {
+  font-family: "Teko", sans-serif;
+  font-size: 80px;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  background-color: greenyellow;
+  width: 100%;
+  height: 80px;
+  position: fixed; }
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20vh; }
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px); }
+
+/*
+font-family: 'Teko',sans-serif;
+font-family: 'Zilla Slab',serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: rgba(0, 0, 0, 0.835); }
+
+.navBar {
+  background-color: greenyellow;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 80px; }
+  .navBar li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Zilla Slab", serif;
+    padding: 20px; }
+
+.carrito2 {
+  height: 24px;
+  width: 24px; }
+
+.img li img {
+  margin-top: 200px;
+  height: 300px;
+  width: 350px; }
+
+.descripcion {
+  width: 25%;
+  margin-left: 25%; }
+
+ul {
+  list-style: none; }
+
+.ubicacion {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%; }
+
+.copyright {
+  display: flex;
+  position: relative;
+  justify-content: end; }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 170px; }
+
+.p-nosotros {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px; }
+
+.p-contacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px; }
+
+.footer-nosotros {
+  margin-top: 645px; }
+
+.footer-contacto {
+  margin-top: 663px; }
+
+.imagenes1 {
+  display: flex;
+  justify-content: space-around; }
+  .imagenes1 li p {
+    color: #FFFFFF;
+    font-size: 13px;
+    text-align: center; }
+
+.botones {
+  display: flex;
+  justify-content: space-around; }
+  .botones a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff; }
+
+@media (max-width: 767px) {
+  .navBar {
+    flex-direction: column;
+    align-items: center; }
+  .imagenes1 {
+    flex-direction: column;
+    align-items: center; }
+  .botones {
+    justify-content: center; }
+  .img {
+    padding-top: 100px; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .imagenes1 li img {
+    height: 220px;
+    width: 230px; }
+  .botones {
+    margin-left: 50px;
+    width: 15vh; } }
