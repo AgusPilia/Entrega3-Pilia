@@ -1,20 +1,16 @@
-.footer-nosotros {
-    margin-top: 645px;
-}
-
-.footer-contacto {
-    margin-top: 663px;
-}
-
-.ubicacion {
+footer {
     display: flex;
-    position: absolute;
     justify-content: center;
-    width: 100%;
 }
 
-.copyright {
+.footerInicio {
     display: flex;
-    position: relative;
-    justify-content: end;
+    justify-content: center;
+    background-color: antiquewhite;
+
+    p {
+        width: 50%
+    }
+
+    ;
 }

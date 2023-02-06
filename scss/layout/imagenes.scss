@@ -7,6 +7,7 @@
             color: $color_2;
             font-size: 13px;
             text-align: center;
+
         }
     }
 }
@@ -14,9 +15,15 @@
 .img {
     li {
         img {
-            margin-top: 200px;
+            margin-top: 25px;
             height: 300px;
             width: 350px;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            border-radius: 15px;
+
+            &:hover {
+                box-shadow: rgba(255, 255, 255, 0.55) 0 8px 15px;
+            }
         }
     }
 }
